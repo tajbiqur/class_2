@@ -1,0 +1,549 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Header section css code start */
+header{
+    width: 100%; 
+    padding: 15px 0px;
+}
+.wrapper{
+    width: 88%;
+    margin: 0px auto;
+}
+
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .nav .logo img{
+    width: 100px;
+}
+.menu ul li{
+    display: inline-block;
+    list-style-type: none;  
+    margin-right: 18px; 
+    font-weight: 400;
+}
+
+.menu ul li a{
+    color: #3d4abd;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.bton button{
+    background-color: darkblue;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: 1px solid darkblue;    
+}
+
+.bton button:hover{
+    background-color: #00AEEF;
+}
+
+.left button{
+    background-color: darkblue;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    color: white;
+    border: 1px solid darkblue;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.left button:hover{
+    background-color: #00AEEF;
+}
+
+/* Header section css code end */
+/* Banner section css code start */
+.banner-section{
+    width: 100%;
+    height: 80vh;
+    margin-top: 30px;
+}
+
+.banner-section .flex-box{
+    display: flex;
+    align-items: center;
+}
+
+.banner-section .flex-box h1{
+    font-size: 40px;
+    margin-right: -48px;
+    color: #1e266d;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+.banner-section .flex-box .right img{
+    width: 115%;
+    height: auto;
+}
+
+.banner-section .flex-box .left{
+    flex-basis: 40%;
+
+}
+
+.banner-section .flex-box .right{
+    flex-basis: 60%;
+
+}
+.banner-section .flex-box .left p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 19px;
+    color: #1f266a;
+    line-height: 28px;
+    font-weight: 300;
+    margin-right: 3px;
+}
+
+/* Banner section css code end */
+/* Box3 section css code start */
+section{
+    margin: 70px 0px;
+}
+
+.box3-section .wrapper{
+    display: flex;
+}
+
+.box3-section .wrapper .box12{
+    background-color: #f9799a;
+    color: white;
+    margin-right: 30px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    flex-basis: 33.33%;
+}
+
+.box3-section .wrapper .box21{
+    background-color: #61c4d8;
+    color: white;
+    margin-right: 30px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    flex-basis: 33.33%;
+}
+
+.box3-section .wrapper .box31{
+    background-color:  #1e266d;
+    color: white;
+    margin-right: 30px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    flex-basis: 33.33%;
+    
+}
+/* Box3 section css code end */
+/* Project section css code start */
+
+.pro-flex{
+    display: flex;
+}
+.pro-flex .project h6{
+    font-size: 25px;
+    color: #171f3c;
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.pro-flex .project p{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-right: 10px;
+
+}
+
+.pro-flex .project h2{
+    font-size: 45px;
+    color: #07324f;
+    line-height: 45px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.pro-flex .project .button{
+    border-color: #1e266d;
+    color: white;
+    padding: 20px 30px;
+    color: #00AEEF;
+}
+.pro-flex .project button{
+    background-color: #1e266d;
+    border: 2px solid #1e266d;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.pro-flex .project button:hover{
+    background-color: #00AEEF;
+
+}
+/* Project section css code end */
+/* Support section css code end */
+
+.support{
+    width: 100%;
+    background-color: #f5f7fa;  
+}
+.support-pro{
+    display: flex;
+    align-items: center;
+}
+.support .support-pro .banner img{
+    padding: 80px 0px;
+    flex-basis: 50%;
+}
+
+.support .support-pro .text h6{
+    flex-basis: 50%;
+    color: #171f3c;
+    font-size: 25px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.support .support-pro .text p{
+    flex-basis: 50%;
+    color: #171f3c;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.support .support-pro .text h2{
+    font-size: 45px;
+    color: #07324f;
+    line-height: 45px;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+
+.support .support-pro .text button{
+    background-color: #1e266d;
+    color: white;
+    border: 2px solid #1e266d;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.support .support-pro .text button:hover{
+    background-color: #00AEEF;
+    border: 2px solid #00AEEF;
+}
+
+/* Support section css code end */
+/* Earn section css code start */
+.earn .earn-sec{
+    display: flex;
+    align-items: center;
+}
+
+.earn .earn-sec .text h6{
+    font-size: 25px;
+    color: #171f3c;
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.earn .earn-sec .text p{
+    flex-basis: 50%;
+    color: #171f3c;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.earn .earn-sec .text .banner img{
+    flex-basis: 50%;
+}
+.earn .earn-sec .text h2{
+    font-size: 45px;
+    color: #07324f;
+    line-height: 45px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.earn .earn-sec .text button{
+    background-color: #1e266d;
+    color: white;
+    border: 2px solid #1e266d;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.earn .earn-sec .text button:hover{
+    background-color: #00AEEF;
+    border: 2px solid #00AEEF;
+}
+.privilege-card{
+    display: flex;
+    
+}
+
+.privilege-card .banner img{
+    flex-basis: 50%;
+    width: 80%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.privilege-card .text{
+    flex-basis: 50%;
+}
+
+/* Earn section css code end */
+/* Privilege section css code start */
+
+.privilege{
+    width: 100%;
+    background-color: #f5f7fa;
+}
+.privilege-card{
+    padding-top: 80px;
+}
+
+.privilege-card h6{
+    font-size: 25px;
+    color: #171f3c;
+    margin-bottom: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.privilege-card .text p{
+    flex-basis: 50%;
+    color: #171f3c;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.text h2{
+    font-size: 45px;
+    color: #07324f;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+
+.text button{
+    background-color: #1e266d;
+    color: white;
+    border: 2px solid #1e266d;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+/* Privilege section css code end */
+.how h1{
+    font-size: 45px;
+    color: #171f3c;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.line{
+    margin-bottom: 20px;
+    display: flex;
+}
+.box1{
+    height: 5px;
+    width: 25%;
+    background-color: #01AEEF;
+}
+.box2{
+    height: 5px;
+    width: 25%;
+    background-color: #E94524;
+}
+.box3{
+    height: 5px;
+    width: 25%;
+    background-color: #F9AC1A;
+}
+.box4{
+    height: 5px;
+    width: 25%;
+    background-color: #2D9470;
+}
+
+/* Develop section css code start */
+.main-box{
+    display: flex;
+    line-height: 30px;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 100px;
+}
+
+/* Develop section css code end */
+
+.lav-2 img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.succes{
+    background-color: #f5f7fa;
+    margin-bottom: 30px;
+}
+.succes-box{
+    display: flex;
+    flex-basis: 33.3%;
+    align-items: center;
+}
+
+.succes-box .box-1{
+    height: auto;
+}
+.succes-box .box-1 h2{
+    color: #1e266d;
+    font-size: 45px;
+
+}
+.succes-box .box-1 p{
+    font-size: 18px;
+}
+.succes-box .box-1 button{
+    background-color: #1e266d;
+    color: white;
+    border: 2px solid #1e266d;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+
+.succes-box .box-2 img{
+    width: 100%;
+    
+}
+.succes-box .box3{
+    font-size: 18px;
+}
+.u-box{
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    background-color: #1f266a;
+    margin-bottom: 30px;
+}
+.u-box .left{
+    padding: 100px 60px;
+    line-height: 30px;
+}
+.u-box .right{
+    padding: 100px 60px;
+    line-height: 30px;
+}
+/* End */
+.s-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.s-box .box-1 h4{
+    font-size: 25px;
+    line-height: 40px;
+
+}
+.s-box .box-1 p{
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+
+.s-box .box-2 h4{
+    font-size: 25px;
+    line-height: 40px;
+
+}
+.s-box .box-2 p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.s-box .box-3 h4{
+    font-size: 25px;
+    line-height: 40px;
+
+}
+.s-box .box-3 p{
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+
+.s-box .box-4 h4{
+    font-size: 25px;
+    line-height: 40px;
+
+}
+.s-box .box-4 p{
+    font-size: 18px;
+    margin-right: 10px;
+    line-height: 30px;
+}
+.lg1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.lg1 img{
+    width: 80%;
+    padding: 0 auto;
+}
+.design{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+
